@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=B612:regular,italic,700,700italic");
+* {
+  box-sizing: border-box;
+  font-family: "B612", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 150px;
+}
+#search-bar {
+  border: 1px rgb(194, 194, 194) solid;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 13px;
+}
+input {
+  width: 30%;
+  height: 20px;
+  padding: 25px;
+  outline: none;
+  font-size: 1.2rem;
+}
+button {
+  all: unset;
+  background-color: rgb(97, 87, 167);
+  color: white;
+  padding: 10px 20px;
+}
+#list {
+  /* border: 1px red solid;  */
+  width: 36.5%;
+  margin: auto;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: bisque;
+}
+.movie-item {
+  /* border: 1px blue solid; */
+  width: fit-content;
+  display: flex;
+  gap: 20px;
+}
+.search-btn {
+  all: unset;
+  background-color: gold;
+  padding: 5px 10px;
+  font-weight: 900;
+}
